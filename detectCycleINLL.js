@@ -54,4 +54,4 @@
      
             document.write(isCircular(head) ? "Yes<br/>" : "No<br/>");
      
-    // This code contributed by gauravrajput1
+    // This code contributed by rutujanalawade
