@@ -1,7 +1,4 @@
-// javascript program to check if
-// linked list is circular
- 
-    /* Link list Node */
+
     class Node {
         constructor(val) {
             this.data = val;
@@ -10,9 +7,7 @@
     }
      
      
-        /*
-         * This function returns true if given linked list is circular, else false.
-         */
+     
         function isCircular( head) {
             // An empty linked list is circular
             if (head == null)
@@ -31,7 +26,7 @@
             return (node == head);
         }
      
-        // Utility function to create a new node.
+       
         function newNode(data) {
              temp = new Node();
             temp.data = data;
@@ -39,9 +34,7 @@
             return temp;
         }
      
-        /* Driver code */
-         
-            /* Start with the empty list */
+     
              head = newNode(1);
             head.next = newNode(2);
             head.next.next = newNode(3);
@@ -54,4 +47,4 @@
      
             document.write(isCircular(head) ? "Yes<br/>" : "No<br/>");
      
-    // This code contributed by rutujanalawade
+   
